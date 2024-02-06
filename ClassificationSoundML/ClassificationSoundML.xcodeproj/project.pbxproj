@@ -11,6 +11,7 @@
 		F775FB172B72EEA30083279E /* ClassificationSoundMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775FB162B72EEA30083279E /* ClassificationSoundMLView.swift */; };
 		F775FB192B72EEA60083279E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F775FB182B72EEA60083279E /* Assets.xcassets */; };
 		F775FB1C2B72EEA60083279E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F775FB1B2B72EEA60083279E /* Preview Assets.xcassets */; };
+		F775FB232B72F1000083279E /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775FB222B72F1000083279E /* AudioRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F775FB162B72EEA30083279E /* ClassificationSoundMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationSoundMLView.swift; sourceTree = "<group>"; };
 		F775FB182B72EEA60083279E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F775FB1B2B72EEA60083279E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F775FB222B72F1000083279E /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F775FB142B72EEA30083279E /* ClassificationSoundMLApp.swift */,
 				F775FB162B72EEA30083279E /* ClassificationSoundMLView.swift */,
+				F775FB222B72F1000083279E /* AudioRecorder.swift */,
 				F775FB182B72EEA60083279E /* Assets.xcassets */,
 				F775FB1A2B72EEA60083279E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F775FB232B72F1000083279E /* AudioRecorder.swift in Sources */,
 				F775FB172B72EEA30083279E /* ClassificationSoundMLView.swift in Sources */,
 				F775FB152B72EEA30083279E /* ClassificationSoundMLApp.swift in Sources */,
 			);

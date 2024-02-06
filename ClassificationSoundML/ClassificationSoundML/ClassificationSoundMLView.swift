@@ -12,6 +12,7 @@ import CoreML
 
 struct ClassificationSoundMLView: View {
     
+    private var audioRecorder = AudioRecorder()
     @State private var recording: Bool = false
     @State private var allowed: Bool = false
     @State private var classification: String = ""

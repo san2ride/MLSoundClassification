@@ -11,7 +11,7 @@ import SwiftUI
 struct ClassificationSoundMLApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ClassificationSoundMLView()
         }
     }
 }
